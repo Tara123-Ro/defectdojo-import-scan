@@ -19,6 +19,11 @@ if [[ ! -z "$INPUT_SCAN_DATE" ]]
 then
     ARGS+="-F 'scan_date=$INPUT_SCAN_DATE' "
 fi
+
+if [[ ! -z "$INPUT_SCAN_TIME" ]]
+then
+    ARGS+="-F 'scan_time=$INPUT_SCAN_TIME' "
+fi
   
 if [[ ! -z "$INPUT_MINIMUM_SEVERITY" ]]
 then
