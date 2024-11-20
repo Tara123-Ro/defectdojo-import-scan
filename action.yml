@@ -37,6 +37,7 @@ inputs:
   scan_type:
     description: > 
         (string) File name.
+    default: ''    
     required: true
   endpoint_to_add:
     description: > 
