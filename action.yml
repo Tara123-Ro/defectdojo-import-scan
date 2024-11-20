@@ -114,6 +114,7 @@ runs:
         INPUT_DEFECTDOJO_URL: ${{ inputs.defectdojo_url }}
         INPUT_DEFECTDOJO_ENDPOINT: ${{ inputs.defectdojo_endpoint }}
         INPUT_SCAN_DATE: ${{ inputs.scan_date }}
+        INPUT_SCAN_TIME: ${{ inputs.scan_time }}
         INPUT_MINIMUM_SEVERITY: ${{ inputs.minimum_severity }}
         INPUT_ACTIVE: ${{ inputs.active }}
         INPUT_VERIFIED: ${{ inputs.verified }}
