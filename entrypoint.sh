@@ -40,9 +40,13 @@ then
     ARGS+="-F 'verified=$INPUT_VERIFIED' "
 fi
 
+# if [[ ! -z "$INPUT_SCAN_TYPE" ]]
+# then
+#     ARGS+="-F 'scan_type=\"$INPUT_SCAN_TYPE\"' "
+# fi
 if [[ ! -z "$INPUT_SCAN_TYPE" ]]
 then
-    ARGS+="-F 'scan_type=\"$INPUT_SCAN_TYPE\"' "
+    ARGS+="-F scan_type=$INPUT_SCAN_TYPE "
 fi
 
 if [[ ! -z "$INPUT_ENDPOINT_TO_ADD" ]]
