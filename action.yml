@@ -36,7 +36,7 @@ inputs:
     default: true
   scan_type:
     description: > 
-        (string) (string) Scan type in the format Trufflehog Scan_YYYY-MM-DD_HH:MM:SS.   
+        (string) Scan type in the format Trufflehog Scan_YYYY-MM-DD_HH:MM:SS.   
     required: true
   endpoint_to_add:
     description: > 
