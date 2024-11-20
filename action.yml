@@ -48,7 +48,7 @@ inputs:
     required: true
   engagement:
     description: > 
-        (integer) Engagement id.
+        (number) Engagement id.
     required: true
   lead:
     description: > 
